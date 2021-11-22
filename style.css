@@ -62,7 +62,13 @@ body .wrapper button:hover{
 @media only screen and (max-width: 768px) {
     
     body {
-        padding-top: 150px;
+        width: 100%;
+        padding-top: 100px;
+    }
+
+    body .wrapper {
+        width: 500px;
+        margin: 10px;
     }
 
     body .wrapper h1, h2, h3 {
